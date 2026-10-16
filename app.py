@@ -78,7 +78,11 @@ if st.button("Analyze JD"):
 #Calling LLM 
 load_dotenv()
 
-client = genai.Client() 
+api_key = os.getenv("GEMINI_API_KEY")
+if not api_key:
+    api_key = st.secrets["GEMINI_API_KEY"]
+
+client = genai.Client(api_key=api_key)
 
 prompt = f"""
 Analyze this job description as an AI career advisor.
