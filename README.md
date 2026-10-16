@@ -2,9 +2,16 @@
 
 An AI-powered web application that analyzes job descriptions, identifies matching and missing skills, calculates a skill match percentage, and uses Google's Gemini AI to provide personalized recommendations.
 
+
+## Preview
+
+![Job Description Analyzer](app-preview.png)
+
+![Analysis Chart](chart.png)
+
 ## Live Demo
 
-🔗 **Live App:** [Open Job Description Analyzer](https://share.streamlit.io/)
+🔗 **Live App:** [Open Job Description Analyzer](https://jobanalyzer-d3dvddrdhrehwj2t63nwfb.streamlit.app/)
 
 ## Features
 
